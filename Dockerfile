@@ -12,7 +12,7 @@ RUN apk update \
 
 RUN apk add --update gcc libc-dev linux-headers && rm -rf /var/cache/apk/*
 RUN pip install --upgrade pip
-RUN pip3 install pylint
+RUN pip install pylint
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
