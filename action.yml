@@ -10,6 +10,6 @@ runs:
 steps:
 - uses: actions/checkout@master
 - name: Python Pylint Github Action
-  uses: fylein/python-pylint-github-action@master
+  uses: kamalauriga/python-pylint-github-action@master
   with:
     args: pylint --help
