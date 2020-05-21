@@ -16,8 +16,8 @@ $ pylint --rcfile=.pylintrc <directory_name>
 ### Usage
 
 ```yml
-- name: Python Pylin GitHub Action
-  uses: fylein/python-pylint-github-action@v1
+- name: Python Pylint GitHub Action
+  uses: kamalauriga/python-pylint-github-action@master
   with:
     args: pip3 install -r requirements.txt && pylint --rcfile=.pylintrc <directory_name>
 ```
