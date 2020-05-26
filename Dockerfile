@@ -12,7 +12,7 @@ RUN apt-get update \
     
 RUN apt-get install -y bash gcc musl-dev libffi-dev python-dev python3-dev python3-pip libssl-dev software-properties-common 
 
-RUN apt-get install -y graphviz libgraphviz-dev graphviz-dev pkg-config
+RUN apt-get install -y graphviz libgraphviz-dev graphviz-dev pkg-config grep
 
 RUN pip3 install pylint
 
